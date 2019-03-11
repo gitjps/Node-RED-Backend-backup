@@ -1,6 +1,6 @@
 # Simple forward server
 
-In case a cors problem using **Node-RED** as **REST server** can not be fixed.
+In case of a cors problem using **Node-RED** as **REST server** can not be fixed.
 I wrote a simple sample **REST forward server**, which has **cors enabled**.
 
 ```javascript
