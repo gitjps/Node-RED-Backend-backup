@@ -1,11 +1,14 @@
 # Simple forward server
 
-If a cors problem using **Node-RED** as **REST server** can not be fixed, I wrote a simple sample REST forward server which has cors enabled.
+In case a cors problem using **Node-RED** as **REST server** can not be fixed.
+I wrote a simple sample **REST forward server**, which has **cors enabled**.
 
 ```javascript
 var cors = require("cors"); // Cors
 app.use(cors());
 ```
+
+* Basic flow:
 
 WebApp -> simple-forward-server(**cores enabled**) -> Node-RED
 
