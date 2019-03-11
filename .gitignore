@@ -1,0 +1,6 @@
+.DS_Store
+
+
+# node simple_forward_server
+./simple_forward_server/node_modules
+./simple_forward_server/package-lock.json

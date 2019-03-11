@@ -1,0 +1,2836 @@
+[
+    {
+        "id": "eb7b5ef1.374aa",
+        "type": "tab",
+        "label": "1. Basics",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "d21f2783.2bd5b8",
+        "type": "tab",
+        "label": "2. Assistant",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "881ab281.5c80e",
+        "type": "tab",
+        "label": "3. Tone Analyzer",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "36034f50.fddcd",
+        "type": "tab",
+        "label": "4. IoT Integration",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "9688a775.6733c8",
+        "type": "tab",
+        "label": "5. UI Table",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "ae6d479b.828528",
+        "type": "tab",
+        "label": "6. Websocket and Webpage (Basic)",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "e3f80e54.f284c",
+        "type": "tab",
+        "label": "7. USE REST API  (Basic)",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "87d7e531.936628",
+        "type": "tab",
+        "label": "8. PROVIDE REST API  (Basic)",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "5e990000.2b94d",
+        "type": "tab",
+        "label": "9. useCreditpaas Api sample (Hacknext)",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "cc05f6bc.5534f8",
+        "type": "tab",
+        "label": "10. Figo API  (Hacknext)",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "856d6c5f.572c1",
+        "type": "tab",
+        "label": "11. Versicherungsvergleich  (Hacknext)",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "11763f97.20dc8",
+        "type": "tab",
+        "label": "XX. Combination and UI",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "2da11c5.882c3e4",
+        "type": "tab",
+        "label": "Sample Bot",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "d86aa1ea.6940d",
+        "type": "ui_tab",
+        "z": "",
+        "name": "1 Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a8497d7d.7b2d3",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "13670ec7.766dc1",
+        "type": "ui_group",
+        "z": "",
+        "name": "Assistant",
+        "tab": "d86aa1ea.6940d",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": true
+    },
+    {
+        "id": "a9919ab8.9f0ea8",
+        "type": "websocket-listener",
+        "z": "",
+        "path": "/ws/websocket-listener",
+        "wholemsg": "false"
+    },
+    {
+        "id": "ff6ef6ad.ada7f8",
+        "type": "ui_tab",
+        "z": "",
+        "name": "2 Tone Analyzer",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f07811c0.c924b",
+        "type": "ui_group",
+        "z": "",
+        "name": "Tone Analyzer",
+        "tab": "ff6ef6ad.ada7f8",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "3bc2df2c.829ea",
+        "type": "ui_tab",
+        "z": "",
+        "name": "3 IoT integration",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6c9e3cab.4e5f74",
+        "type": "ui_group",
+        "z": "",
+        "name": "IoT Integration",
+        "tab": "3bc2df2c.829ea",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "f1438030.7b71d",
+        "type": "ui_tab",
+        "z": "",
+        "name": "4 UI Table",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "788b487f.4c7888",
+        "type": "ui_group",
+        "z": "",
+        "name": "UI Table",
+        "tab": "f1438030.7b71d",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "d6926bbb.f5b108",
+        "type": "ui_group",
+        "z": "",
+        "name": "Assistant",
+        "tab": "ff6ef6ad.ada7f8",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a99da1ea.ead0f",
+        "type": "ui_group",
+        "z": "",
+        "name": "Assistant",
+        "tab": "f1438030.7b71d",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "d478cab3.1899d8",
+        "type": "debug",
+        "z": "d21f2783.2bd5b8",
+        "name": "debug complete msg object",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 700,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "367e88a8.cd9a28",
+        "type": "inject",
+        "z": "d21f2783.2bd5b8",
+        "name": "I want to make a appointment",
+        "topic": "",
+        "payload": "I want to make a appointment",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 180,
+        "y": 120,
+        "wires": [
+            [
+                "e07023b5.4a277",
+                "74b9e2a0.133d4c"
+            ]
+        ]
+    },
+    {
+        "id": "807394c0.7eb058",
+        "type": "debug",
+        "z": "11763f97.20dc8",
+        "name": "assistant debug",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 980,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "6cb6220b.020a5c",
+        "type": "inject",
+        "z": "11763f97.20dc8",
+        "name": "I want to make a appointment",
+        "topic": "",
+        "payload": "I want to make a appointment! When the hell did this happen?",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 160,
+        "y": 140,
+        "wires": [
+            [
+                "eeefcaf9.946028"
+            ]
+        ]
+    },
+    {
+        "id": "fe980624.bcf5c8",
+        "type": "watson-conversation-v1",
+        "z": "11763f97.20dc8",
+        "name": "",
+        "workspaceid": "aab8cf6d-63e3-4ad1-9dea-01a30825b4e5",
+        "multiuser": false,
+        "context": true,
+        "empty-payload": false,
+        "default-endpoint": true,
+        "service-endpoint": "https://gateway.watsonplatform.net/assistant/api",
+        "timeout": "",
+        "optout-learning": false,
+        "x": 640,
+        "y": 140,
+        "wires": [
+            [
+                "807394c0.7eb058",
+                "fc864b22.da28d8",
+                "c49d9c7f.fa35b"
+            ]
+        ]
+    },
+    {
+        "id": "eeefcaf9.946028",
+        "type": "watson-tone-analyzer-v3",
+        "z": "11763f97.20dc8",
+        "name": "",
+        "tones": "all",
+        "sentences": "true",
+        "contentType": "false",
+        "tone-method": "generalTone",
+        "interface-version": "2016-05-19",
+        "inputlang": "en",
+        "default-endpoint": true,
+        "service-endpoint": "https://gateway.watsonplatform.net/tone-analyzer/api",
+        "x": 400,
+        "y": 140,
+        "wires": [
+            [
+                "f6e42bcd.30f9f8"
+            ]
+        ]
+    },
+    {
+        "id": "f6e42bcd.30f9f8",
+        "type": "function",
+        "z": "11763f97.20dc8",
+        "name": "",
+        "func": "var tone_categories = msg.response.document_tone.tone_categories;\nvar count = tone_categories.length;\nvar msg1 = {\"payload\": msg.payload}; // text\n\n// extract tones\nvar emotion_tone = tone_categories[0].tones;\nvar language_tone = tone_categories[1].tones;\nvar social_tone = tone_categories[2].tones;\n\n// emotion_tone\nvar msg2 = {\"payload\": Math.round((tone_categories[0].tones[0].score * 100))}; // anger\nvar msg3 = {\"payload\": Math.round((tone_categories[0].tones[1].score * 100))}; // disgust\nvar msg4 = {\"payload\": Math.round((tone_categories[0].tones[2].score * 100))}; // fear\nvar msg5 = {\"payload\": Math.round((tone_categories[0].tones[3].score * 100))}; // joy\nvar msg6 = {\"payload\": Math.round((tone_categories[0].tones[4].score * 100))}; // Sadness\n\nreturn [msg1,msg2,msg3,msg4,msg5,msg6];",
+        "outputs": 6,
+        "noerr": 0,
+        "x": 510,
+        "y": 420,
+        "wires": [
+            [
+                "132dc85c.799118",
+                "fe980624.bcf5c8"
+            ],
+            [
+                "132dc85c.799118",
+                "b42e48c4.9f7278"
+            ],
+            [
+                "132dc85c.799118"
+            ],
+            [
+                "132dc85c.799118"
+            ],
+            [
+                "132dc85c.799118"
+            ],
+            [
+                "132dc85c.799118"
+            ]
+        ]
+    },
+    {
+        "id": "c80fa3a0.408db",
+        "type": "debug",
+        "z": "ae6d479b.828528",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 530,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "132dc85c.799118",
+        "type": "debug",
+        "z": "11763f97.20dc8",
+        "name": "tone analyzer debug",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 860,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "fc864b22.da28d8",
+        "type": "function",
+        "z": "11763f97.20dc8",
+        "name": "",
+        "func": "var list1 = [];\nvar count = msg.payload.intents.length;\n\nfor (i=0;i<count;i++) {  \n    if (msg.payload.intents[i].intent !== undefined) {      \n                         list1.push({  intent: msg.payload.intents[i].intent,\n                         confidence : msg.payload.intents[i].confidence\n                      });\n    }\n}\n\nmsg.payload = {\"intents\": list1}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 930,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b42e48c4.9f7278",
+        "type": "switch",
+        "z": "11763f97.20dc8",
+        "name": "Anger over 40%",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "40",
+                "vt": "num"
+            },
+            {
+                "t": "lt",
+                "v": "40",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 840,
+        "y": 380,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "ede4dae.c156c28",
+        "type": "inject",
+        "z": "ae6d479b.828528",
+        "name": "",
+        "topic": "",
+        "payload": "{\"message\":\"Have great day!\"}",
+        "payloadType": "json",
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "x": 110,
+        "y": 160,
+        "wires": [
+            [
+                "3fddac3.73adf54",
+                "d7642a56.229278"
+            ]
+        ]
+    },
+    {
+        "id": "3fddac3.73adf54",
+        "type": "websocket out",
+        "z": "ae6d479b.828528",
+        "name": "",
+        "server": "a9919ab8.9f0ea8",
+        "client": "",
+        "x": 330,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "3f12da65.238456",
+        "type": "http in",
+        "z": "ae6d479b.828528",
+        "name": "",
+        "url": "/websocket-listener",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 220,
+        "wires": [
+            [
+                "c80fa3a0.408db",
+                "fb870385.194b2"
+            ]
+        ]
+    },
+    {
+        "id": "61fac76.db45a38",
+        "type": "http response",
+        "z": "ae6d479b.828528",
+        "name": "http://hackathon-node-red-tsuedbro.eu-de.mybluemix.net/websocket-listener",
+        "statusCode": "",
+        "headers": {},
+        "x": 760,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "fb870385.194b2",
+        "type": "template",
+        "z": "ae6d479b.828528",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Sensor data voice message using: IBM Watson - Text To Speech</title>\n  <style>\n    html, body, #map-canvas {\n      height: 100%;\n      margin: 0px;\n      padding: 0px\n    }\n    #header {\n      background-color:black;\n      color:white;\n      text-align:center;\n      padding:5px;\n    }\n    #footer {\n      background-color:black;\n      color:white;\n      clear:both;\n      text-align:center;\n      padding:5px;\n    }\n  </style>\n  <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js\"></script>\n\n  <script type=\"text/javascript\">\n    var socketaddy = \"ws://\" + window.location.host + \"/ws/websocket-listener\";\n    var count = 0;\n    $(document).ready(function(){\n      var output = document.getElementById('output')\n      $('#output').on('playing', function () {\n          $('#text').text('Playing audio.')\n\n      });\n\n      $('#output').on('ended', function () {\n          $('#text').text('Waiting for message ...')\n      });\n\n      sock = new WebSocket(socketaddy);\n      sock.onopen = function(){\n          $('#text').text('Waiting for message ...');\n          console.log(\"Connected websocket\");\n          document.getElementById(\"count\").innerHTML = \"Received messages: 0\";\n      };\n      \n      sock.onerror = function(){\n          console.log(\"Websocket error\");\n      };\n      \n      sock.onclose = function () {\n          $('#text').text('Not connected. Refresh the page!')\n      }\n      \n      sock.onmessage = function(evt){\n        console.log(\"--> Websocket event : \", evt);\n        console.log(\"--> Websocket data :\", evt.data);\n        var data = JSON.parse(evt.data);\n        console.log(\"--> Websocket data :\", data);\n        \n        count = count + 1;\n        var message = \"\";\n        \n        message = count + \" \" + data.message;\n        // Set the sensor count on HTML\n\t\tdocument.getElementById(\"count\").innerHTML = message;\n      };\n    });\n  </script>\n\n</head>\n<body style=\"font-size: 56px; font-family: helvetica; text-align: center; margin-top: 100px;\">\n  <div id=\"header\">\n    <p id=\"count\"></p>\n  </div>\n  <div id=\"text\">Connecting...</div>\n  <audio id=\"output\"></audio>\n</body>\n</html>",
+        "output": "str",
+        "x": 360,
+        "y": 280,
+        "wires": [
+            [
+                "61fac76.db45a38"
+            ]
+        ]
+    },
+    {
+        "id": "d7642a56.229278",
+        "type": "debug",
+        "z": "ae6d479b.828528",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 270,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "f4858db0.d8deb",
+        "type": "inject",
+        "z": "e3f80e54.f284c",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 110,
+        "y": 180,
+        "wires": [
+            [
+                "4ca744df.413e9c"
+            ]
+        ]
+    },
+    {
+        "id": "4ca744df.413e9c",
+        "type": "http request",
+        "z": "e3f80e54.f284c",
+        "name": "GET WORKSPACE IDS",
+        "method": "GET",
+        "ret": "txt",
+        "url": "https://gateway-fra.watsonplatform.net/assistant/api/v1/workspaces?version=2018-09-20",
+        "tls": "",
+        "x": 550,
+        "y": 180,
+        "wires": [
+            [
+                "14a3ca43.50a516"
+            ]
+        ]
+    },
+    {
+        "id": "aeb5a62d.7fb0d8",
+        "type": "debug",
+        "z": "e3f80e54.f284c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 930,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "9b24d2f2.d15d7",
+        "type": "http response",
+        "z": "e3f80e54.f284c",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 890,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "14a3ca43.50a516",
+        "type": "json",
+        "z": "e3f80e54.f284c",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 750,
+        "y": 180,
+        "wires": [
+            [
+                "9b24d2f2.d15d7",
+                "aeb5a62d.7fb0d8"
+            ]
+        ]
+    },
+    {
+        "id": "94b27022.303a7",
+        "type": "comment",
+        "z": "e3f80e54.f284c",
+        "name": "Send REST API GET",
+        "info": "",
+        "x": 130,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "b7b52c1f.86ac7",
+        "type": "comment",
+        "z": "e3f80e54.f284c",
+        "name": "Send REST API POST",
+        "info": "",
+        "x": 142.5,
+        "y": 344,
+        "wires": []
+    },
+    {
+        "id": "6ff5ca9a.751844",
+        "type": "inject",
+        "z": "e3f80e54.f284c",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 118.5,
+        "y": 400,
+        "wires": [
+            [
+                "aa525437.6b6728"
+            ]
+        ]
+    },
+    {
+        "id": "6d9e6b6c.502534",
+        "type": "http request",
+        "z": "e3f80e54.f284c",
+        "name": "POST NEW WORKSPACE",
+        "method": "POST",
+        "ret": "txt",
+        "url": "https://gateway-fra.watsonplatform.net/assistant/api/v1/workspaces?version=2018-09-20",
+        "tls": "",
+        "x": 540,
+        "y": 400,
+        "wires": [
+            [
+                "2885bc56.b3b354",
+                "aeb5a62d.7fb0d8"
+            ]
+        ]
+    },
+    {
+        "id": "2885bc56.b3b354",
+        "type": "json",
+        "z": "e3f80e54.f284c",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 750,
+        "y": 400,
+        "wires": [
+            [
+                "c424d102.ba24a",
+                "aeb5a62d.7fb0d8"
+            ]
+        ]
+    },
+    {
+        "id": "c424d102.ba24a",
+        "type": "http response",
+        "z": "e3f80e54.f284c",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 910,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "8a30febb.e9cdd",
+        "type": "inject",
+        "z": "d21f2783.2bd5b8",
+        "name": "What is the local temperature?",
+        "topic": "",
+        "payload": "What is the local temperature?",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 190,
+        "y": 60,
+        "wires": [
+            [
+                "74b9e2a0.133d4c"
+            ]
+        ]
+    },
+    {
+        "id": "87bcae23.2cce5",
+        "type": "inject",
+        "z": "11763f97.20dc8",
+        "name": "What is the local temperature?",
+        "topic": "",
+        "payload": "What is the local temperature?",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 170,
+        "y": 80,
+        "wires": [
+            [
+                "eeefcaf9.946028"
+            ]
+        ]
+    },
+    {
+        "id": "7f7af120.9b4dd",
+        "type": "comment",
+        "z": "e3f80e54.f284c",
+        "name": "API: https://cloud.ibm.com/apidocs/assistant",
+        "info": "",
+        "x": 210,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "aa525437.6b6728",
+        "type": "template",
+        "z": "e3f80e54.f284c",
+        "name": "body in payload",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "json",
+        "syntax": "plain",
+        "template": "{ \n  \"name\":\"API test\",\n  \"intents\":[],\n  \"entities\":[],\n  \"language\":\"en\",\n  \"description\":\"Example workspace created via API.\",\n  \"dialog_nodes\":[]\n}",
+        "output": "str",
+        "x": 280,
+        "y": 400,
+        "wires": [
+            [
+                "6d9e6b6c.502534"
+            ]
+        ]
+    },
+    {
+        "id": "b12c2fd8.c46ee",
+        "type": "comment",
+        "z": "ae6d479b.828528",
+        "name": "Basic websocket and webpage",
+        "info": "",
+        "x": 170,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "1f081db7.2bbfa2",
+        "type": "ibmiot in",
+        "z": "11763f97.20dc8",
+        "authentication": "quickstart",
+        "apiKey": "",
+        "inputType": "evt",
+        "logicalInterface": "",
+        "ruleId": "",
+        "deviceId": "5ae294405d4f",
+        "applicationId": "",
+        "deviceType": "+",
+        "eventType": "+",
+        "commandType": "",
+        "format": "json",
+        "name": "IBM IoT",
+        "service": "quickstart",
+        "allDevices": "",
+        "allApplications": "",
+        "allDeviceTypes": true,
+        "allLogicalInterfaces": "",
+        "allEvents": true,
+        "allCommands": "",
+        "allFormats": "",
+        "qos": 0,
+        "x": 930,
+        "y": 260,
+        "wires": [
+            [
+                "ede8a8d9.ff88f8"
+            ]
+        ]
+    },
+    {
+        "id": "b90bcf38.ea927",
+        "type": "comment",
+        "z": "11763f97.20dc8",
+        "name": "https://quickstart.internetofthings.ibmcloud.com/iotsensor/",
+        "info": "",
+        "x": 1090,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "c49d9c7f.fa35b",
+        "type": "switch",
+        "z": "11763f97.20dc8",
+        "name": "Does temperature exist?",
+        "property": "payload.output.custom_action",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "temperature",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "temperature",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 870,
+        "y": 320,
+        "wires": [
+            [
+                "d2eafeb2.40fce"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f8fa5962.324868",
+        "type": "debug",
+        "z": "11763f97.20dc8",
+        "name": "iot debug",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 1260,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "ede8a8d9.ff88f8",
+        "type": "function",
+        "z": "11763f97.20dc8",
+        "name": "",
+        "func": "var temp = msg.payload.d.temp;\n//console.log(\"get temperature\");\nmsg.payload = { \"temp\" : temp };\nflow.set('temp',temp);\n//console.log(\"get temperature\",temp);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1090,
+        "y": 260,
+        "wires": [
+            [
+                "f8fa5962.324868"
+            ]
+        ]
+    },
+    {
+        "id": "d2eafeb2.40fce",
+        "type": "function",
+        "z": "11763f97.20dc8",
+        "name": "",
+        "func": "var temp = flow.get('temp');\nconsole.log(\"temp:\",temp);\n\n\nif (msg.payload !== undefined){\n    console.log(\"msg.payload defined\", msg.payload);\n    \n    if (msg.payload.output !== undefined){\n         msg.payload.output.text[0] = \"The local temperature is \" + temp + \" grad celsius ! \";\n         console.log(\"get temp from flow: \", temp );\n         console.log(msg.payload.output.text[0]);\n    } else {\n         console.log(\"msg.payload not defined\");\n    }\n} else {\n  console.log(\"msg.payload not defined\");\n}\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1090,
+        "y": 320,
+        "wires": [
+            [
+                "63cb38e4.a19fc8"
+            ]
+        ]
+    },
+    {
+        "id": "63cb38e4.a19fc8",
+        "type": "debug",
+        "z": "11763f97.20dc8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 1250,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "441eec58.85a224",
+        "type": "debug",
+        "z": "881ab281.5c80e",
+        "name": "assistant debug",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 940,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "b304ca22.42f738",
+        "type": "inject",
+        "z": "881ab281.5c80e",
+        "name": "I want to make a appointment",
+        "topic": "",
+        "payload": "I want to make a appointment! When the hell did this happen?",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 160,
+        "y": 180,
+        "wires": [
+            [
+                "5d816be0.7c2cd4"
+            ]
+        ]
+    },
+    {
+        "id": "1692fed.e57b401",
+        "type": "watson-conversation-v1",
+        "z": "881ab281.5c80e",
+        "name": "",
+        "workspaceid": "aab8cf6d-63e3-4ad1-9dea-01a30825b4e5",
+        "multiuser": false,
+        "context": true,
+        "empty-payload": false,
+        "default-endpoint": true,
+        "service-endpoint": "https://gateway.watsonplatform.net/assistant/api",
+        "timeout": "",
+        "optout-learning": false,
+        "x": 640,
+        "y": 180,
+        "wires": [
+            [
+                "441eec58.85a224",
+                "70d67519.eda56c"
+            ]
+        ]
+    },
+    {
+        "id": "5d816be0.7c2cd4",
+        "type": "watson-tone-analyzer-v3",
+        "z": "881ab281.5c80e",
+        "name": "",
+        "tones": "all",
+        "sentences": "true",
+        "contentType": "false",
+        "tone-method": "generalTone",
+        "interface-version": "2016-05-19",
+        "inputlang": "en",
+        "default-endpoint": true,
+        "service-endpoint": "https://gateway.watsonplatform.net/tone-analyzer/api",
+        "x": 420,
+        "y": 180,
+        "wires": [
+            [
+                "4bda362f.18deb8"
+            ]
+        ]
+    },
+    {
+        "id": "4bda362f.18deb8",
+        "type": "function",
+        "z": "881ab281.5c80e",
+        "name": "",
+        "func": "var tone_categories = msg.response.document_tone.tone_categories;\nvar count = tone_categories.length;\nvar msg1 = {\"payload\": msg.payload}; // text\n\n// extract tones\nvar emotion_tone = tone_categories[0].tones;\nvar language_tone = tone_categories[1].tones;\nvar social_tone = tone_categories[2].tones;\n\n// emotion_tone\nvar msg2 = {\"payload\": Math.round((tone_categories[0].tones[0].score * 100))}; // anger\nvar msg3 = {\"payload\": Math.round((tone_categories[0].tones[1].score * 100))}; // disgust\nvar msg4 = {\"payload\": Math.round((tone_categories[0].tones[2].score * 100))}; // fear\nvar msg5 = {\"payload\": Math.round((tone_categories[0].tones[3].score * 100))}; // joy\nvar msg6 = {\"payload\": Math.round((tone_categories[0].tones[4].score * 100))}; // Sadness\n\nreturn [msg1,msg2,msg3,msg4,msg5,msg6];",
+        "outputs": 6,
+        "noerr": 0,
+        "x": 510,
+        "y": 500,
+        "wires": [
+            [
+                "62f2e8e9.f08958",
+                "1692fed.e57b401"
+            ],
+            [
+                "62f2e8e9.f08958",
+                "d28ddaf1.0c9ba8",
+                "c302d697.08cfc8"
+            ],
+            [
+                "62f2e8e9.f08958",
+                "ebc0150c.b1fa68"
+            ],
+            [
+                "62f2e8e9.f08958",
+                "846ee8ca.68b468"
+            ],
+            [
+                "62f2e8e9.f08958",
+                "e9e01667.a4a7c8"
+            ],
+            [
+                "62f2e8e9.f08958",
+                "9781f72.a198f08"
+            ]
+        ]
+    },
+    {
+        "id": "62f2e8e9.f08958",
+        "type": "debug",
+        "z": "881ab281.5c80e",
+        "name": "tone analyzer debug",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 980,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "9781f72.a198f08",
+        "type": "ui_gauge",
+        "z": "881ab281.5c80e",
+        "name": "",
+        "group": "f07811c0.c924b",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Sadness",
+        "label": "units",
+        "format": "{{payload}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#c14140",
+            "#e6e600",
+            "#00bd67"
+        ],
+        "seg1": "40",
+        "seg2": "70",
+        "x": 940,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "e9e01667.a4a7c8",
+        "type": "ui_gauge",
+        "z": "881ab281.5c80e",
+        "name": "",
+        "group": "f07811c0.c924b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Joy",
+        "label": "units",
+        "format": "{{payload}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#c14140",
+            "#e6e600",
+            "#00bd67"
+        ],
+        "seg1": "40",
+        "seg2": "70",
+        "x": 930,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "846ee8ca.68b468",
+        "type": "ui_gauge",
+        "z": "881ab281.5c80e",
+        "name": "",
+        "group": "f07811c0.c924b",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Fear",
+        "label": "units",
+        "format": "{{payload}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#c14140",
+            "#e6e600",
+            "#00bd67"
+        ],
+        "seg1": "40",
+        "seg2": "70",
+        "x": 930,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "ebc0150c.b1fa68",
+        "type": "ui_gauge",
+        "z": "881ab281.5c80e",
+        "name": "",
+        "group": "f07811c0.c924b",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Disgust",
+        "label": "units",
+        "format": "{{payload}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#c14140",
+            "#e6e600",
+            "#00bd67"
+        ],
+        "seg1": "40",
+        "seg2": "70",
+        "x": 940,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "41220e5d.d866d",
+        "type": "ui_form",
+        "z": "881ab281.5c80e",
+        "name": "Asssistant input",
+        "label": "",
+        "group": "d6926bbb.f5b108",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Your input",
+                "value": "I want to arrange a appointment",
+                "type": "text",
+                "required": true
+            }
+        ],
+        "formValue": {
+            "I want to arrange a appointment": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "",
+        "x": 180,
+        "y": 240,
+        "wires": [
+            [
+                "5d816be0.7c2cd4"
+            ]
+        ]
+    },
+    {
+        "id": "d28ddaf1.0c9ba8",
+        "type": "ui_gauge",
+        "z": "881ab281.5c80e",
+        "name": "",
+        "group": "f07811c0.c924b",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Anger",
+        "label": "units",
+        "format": "{{payload}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#c14140",
+            "#e6e600",
+            "#00bd67"
+        ],
+        "seg1": "40",
+        "seg2": "70",
+        "x": 930,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "c302d697.08cfc8",
+        "type": "switch",
+        "z": "881ab281.5c80e",
+        "name": "Anger over 40%",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "40",
+                "vt": "num"
+            },
+            {
+                "t": "lt",
+                "v": "40",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 720,
+        "y": 260,
+        "wires": [
+            [
+                "1abfedd4.59a5f2"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "1abfedd4.59a5f2",
+        "type": "ui_toast",
+        "z": "881ab281.5c80e",
+        "position": "top right",
+        "displayTime": "10",
+        "highlight": "",
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "topic": "A support member is needed!",
+        "name": "",
+        "x": 950,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "af5d96ee.122548",
+        "type": "inject",
+        "z": "881ab281.5c80e",
+        "name": "What is the local temperature?",
+        "topic": "",
+        "payload": "What is the local temperature?",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 170,
+        "y": 120,
+        "wires": [
+            [
+                "5d816be0.7c2cd4"
+            ]
+        ]
+    },
+    {
+        "id": "70d67519.eda56c",
+        "type": "ui_text",
+        "z": "881ab281.5c80e",
+        "group": "d6926bbb.f5b108",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Assistant output",
+        "format": "{{msg.payload.output.text[0]}}",
+        "layout": "col-center",
+        "x": 940,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "76e90f93.1435b",
+        "type": "debug",
+        "z": "36034f50.fddcd",
+        "name": "assistant debug",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 580,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "3d726185.2b918e",
+        "type": "inject",
+        "z": "36034f50.fddcd",
+        "name": "I want to make a appointment",
+        "topic": "",
+        "payload": "I want to make a appointment! When the hell did this happen?",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 200,
+        "y": 140,
+        "wires": [
+            [
+                "75e03c7d.810f14"
+            ]
+        ]
+    },
+    {
+        "id": "75e03c7d.810f14",
+        "type": "watson-conversation-v1",
+        "z": "36034f50.fddcd",
+        "name": "",
+        "workspaceid": "aab8cf6d-63e3-4ad1-9dea-01a30825b4e5",
+        "multiuser": false,
+        "context": true,
+        "empty-payload": false,
+        "default-endpoint": true,
+        "service-endpoint": "https://gateway.watsonplatform.net/assistant/api",
+        "timeout": "",
+        "optout-learning": false,
+        "x": 420,
+        "y": 140,
+        "wires": [
+            [
+                "76e90f93.1435b",
+                "3f68cf93.24dfa"
+            ]
+        ]
+    },
+    {
+        "id": "6a16a2e6.bfa90c",
+        "type": "ui_text",
+        "z": "36034f50.fddcd",
+        "group": "6c9e3cab.4e5f74",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Assistant output",
+        "format": "{{msg.payload.output.text[0]}}",
+        "layout": "col-center",
+        "x": 880,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "50594ca1.736a24",
+        "type": "ui_form",
+        "z": "36034f50.fddcd",
+        "name": "Asssistant input",
+        "label": "",
+        "group": "6c9e3cab.4e5f74",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Your input",
+                "value": "I want to arrange a appointment",
+                "type": "text",
+                "required": true
+            }
+        ],
+        "formValue": {
+            "I want to arrange a appointment": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "",
+        "x": 220,
+        "y": 200,
+        "wires": [
+            [
+                "75e03c7d.810f14"
+            ]
+        ]
+    },
+    {
+        "id": "92e17af2.c258d8",
+        "type": "inject",
+        "z": "36034f50.fddcd",
+        "name": "What is the local temperature?",
+        "topic": "",
+        "payload": "What is the local temperature?",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 210,
+        "y": 80,
+        "wires": [
+            [
+                "75e03c7d.810f14"
+            ]
+        ]
+    },
+    {
+        "id": "b1eee65f.1a88d8",
+        "type": "ibmiot in",
+        "z": "36034f50.fddcd",
+        "authentication": "quickstart",
+        "apiKey": "",
+        "inputType": "evt",
+        "logicalInterface": "",
+        "ruleId": "",
+        "deviceId": "ec115991b223",
+        "applicationId": "",
+        "deviceType": "+",
+        "eventType": "+",
+        "commandType": "",
+        "format": "json",
+        "name": "IBM IoT",
+        "service": "quickstart",
+        "allDevices": "",
+        "allApplications": "",
+        "allDeviceTypes": true,
+        "allLogicalInterfaces": "",
+        "allEvents": true,
+        "allCommands": "",
+        "allFormats": "",
+        "qos": 0,
+        "x": 550,
+        "y": 260,
+        "wires": [
+            [
+                "8ac7bdff.f01cc"
+            ]
+        ]
+    },
+    {
+        "id": "47b476ca.304318",
+        "type": "comment",
+        "z": "36034f50.fddcd",
+        "name": "https://quickstart.internetofthings.ibmcloud.com/iotsensor/",
+        "info": "",
+        "x": 710,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "3f68cf93.24dfa",
+        "type": "switch",
+        "z": "36034f50.fddcd",
+        "name": "Does temperature exist?",
+        "property": "payload.output.custom_action",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "temperature",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "temperature",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 590,
+        "y": 380,
+        "wires": [
+            [
+                "2d2a2ad1.f00956"
+            ],
+            [
+                "6a16a2e6.bfa90c"
+            ]
+        ]
+    },
+    {
+        "id": "cf632c1e.2cce1",
+        "type": "debug",
+        "z": "36034f50.fddcd",
+        "name": "iot debug",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 880,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "8ac7bdff.f01cc",
+        "type": "function",
+        "z": "36034f50.fddcd",
+        "name": "",
+        "func": "var temp = msg.payload.d.temp;\n//console.log(\"get temperature\");\nmsg.payload = { \"temp\" : temp };\nflow.set('temp',temp);\n//console.log(\"get temperature\",temp);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 260,
+        "wires": [
+            [
+                "cf632c1e.2cce1"
+            ]
+        ]
+    },
+    {
+        "id": "2d2a2ad1.f00956",
+        "type": "function",
+        "z": "36034f50.fddcd",
+        "name": "",
+        "func": "var temp = flow.get('temp');\nconsole.log(\"temp:\",temp);\n\n\nif (msg.payload !== undefined){\n    console.log(\"msg.payload defined\", msg.payload);\n    \n    if (msg.payload.output !== undefined){\n         msg.payload.output.text[0] = \"The local temperature is \" + temp + \" grad celsius ! \";\n         console.log(\"get temp from flow: \", temp );\n         console.log(msg.payload.output.text[0]);\n    } else {\n         console.log(\"msg.payload not defined\");\n    }\n} else {\n  console.log(\"msg.payload not defined\");\n}\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 320,
+        "wires": [
+            [
+                "6a16a2e6.bfa90c",
+                "da305efb.e103f"
+            ]
+        ]
+    },
+    {
+        "id": "da305efb.e103f",
+        "type": "debug",
+        "z": "36034f50.fddcd",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 870,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "94c8c304.1e53a",
+        "type": "debug",
+        "z": "9688a775.6733c8",
+        "name": "assistant debug",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 840,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "52c0468b.d01d88",
+        "type": "inject",
+        "z": "9688a775.6733c8",
+        "name": "I want to make a appointment",
+        "topic": "",
+        "payload": "I want to make a appointment! When the hell did this happen?",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 160,
+        "y": 140,
+        "wires": [
+            [
+                "85dce888.223f48"
+            ]
+        ]
+    },
+    {
+        "id": "85dce888.223f48",
+        "type": "watson-conversation-v1",
+        "z": "9688a775.6733c8",
+        "name": "",
+        "workspaceid": "aab8cf6d-63e3-4ad1-9dea-01a30825b4e5",
+        "multiuser": false,
+        "context": true,
+        "empty-payload": false,
+        "default-endpoint": true,
+        "service-endpoint": "https://gateway.watsonplatform.net/assistant/api",
+        "timeout": "",
+        "optout-learning": false,
+        "x": 440,
+        "y": 140,
+        "wires": [
+            [
+                "94c8c304.1e53a",
+                "11989d6c.ecbc23",
+                "cbfbd964.0d3a68"
+            ]
+        ]
+    },
+    {
+        "id": "8aa2ff80.8d0e7",
+        "type": "ui_form",
+        "z": "9688a775.6733c8",
+        "name": "Asssistant input",
+        "label": "",
+        "group": "a99da1ea.ead0f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Your input",
+                "value": "I want to arrange a appointment",
+                "type": "text",
+                "required": true
+            }
+        ],
+        "formValue": {
+            "I want to arrange a appointment": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "",
+        "x": 180,
+        "y": 200,
+        "wires": [
+            [
+                "85dce888.223f48"
+            ]
+        ]
+    },
+    {
+        "id": "11989d6c.ecbc23",
+        "type": "function",
+        "z": "9688a775.6733c8",
+        "name": "",
+        "func": "var list1 = [];\nvar count = msg.payload.intents.length;\n\nfor (i=0;i<count;i++) {  \n    if (msg.payload.intents[i].intent !== undefined) {      \n                         list1.push({  intent: msg.payload.intents[i].intent,\n                         confidence : msg.payload.intents[i].confidence\n                      });\n    }\n}\n\nmsg.payload = {\"intents\": list1}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 650,
+        "y": 140,
+        "wires": [
+            [
+                "13cee7d.c1af218"
+            ]
+        ]
+    },
+    {
+        "id": "13cee7d.c1af218",
+        "type": "ui_template",
+        "z": "9688a775.6733c8",
+        "group": "788b487f.4c7888",
+        "name": "Table template",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "format": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<table id=\"table\" border=\"1\">\n    <tr><th> Intent </th>\n        <th> Confidence </th>\n    </tr>\n<tbody>\n<tr ng-repeat=\"row in msg.payload.intents\">\n<td ng-repeat=\"item in row\">{{item}}</td>\n</tr>\n</tbody>\n</table>\n</body>\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 840,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ddc5bd21.492f4",
+        "type": "inject",
+        "z": "9688a775.6733c8",
+        "name": "What is the local temperature?",
+        "topic": "",
+        "payload": "What is the local temperature?",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 170,
+        "y": 80,
+        "wires": [
+            [
+                "85dce888.223f48"
+            ]
+        ]
+    },
+    {
+        "id": "cbfbd964.0d3a68",
+        "type": "ui_text",
+        "z": "9688a775.6733c8",
+        "group": "a99da1ea.ead0f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Assistant output",
+        "format": "{{msg.payload.output.text[0]}}",
+        "layout": "col-center",
+        "x": 680,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "4b62c3a5.e6211c",
+        "type": "comment",
+        "z": "e3f80e54.f284c",
+        "name": "https://console.bluemix.net/apidocs/assistant",
+        "info": "https://console.bluemix.net/apidocs/assistant",
+        "x": 210,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "e07023b5.4a277",
+        "type": "watson-conversation-v1-workspace-manager",
+        "z": "d21f2783.2bd5b8",
+        "name": "",
+        "cwm-custom-mode": "listWorkspaces",
+        "cwm-workspace-id": "",
+        "cwm-intent": "",
+        "cwm-example": "",
+        "cwm-entity": "",
+        "cwm-entity-value": "",
+        "cwm-dialog-node": "",
+        "cwm-export-content": false,
+        "cwm-default-endpoint": true,
+        "cwm-service-endpoint": "https://gateway.watsonplatform.net/assistant/api",
+        "x": 440,
+        "y": 200,
+        "wires": [
+            [
+                "d478cab3.1899d8"
+            ]
+        ]
+    },
+    {
+        "id": "74b9e2a0.133d4c",
+        "type": "watson-conversation-v1",
+        "z": "d21f2783.2bd5b8",
+        "name": "",
+        "workspaceid": "aab8cf6d-63e3-4ad1-9dea-01a30825b4e5",
+        "multiuser": false,
+        "context": true,
+        "empty-payload": false,
+        "default-endpoint": true,
+        "service-endpoint": "https://gateway.watsonplatform.net/assistant/api",
+        "timeout": "",
+        "optout-learning": false,
+        "x": 420,
+        "y": 120,
+        "wires": [
+            [
+                "d478cab3.1899d8"
+            ]
+        ]
+    },
+    {
+        "id": "a79e8dfb.3a328",
+        "type": "http in",
+        "z": "87d7e531.936628",
+        "name": "",
+        "url": "/getData",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 140,
+        "wires": [
+            [
+                "b0f7bde5.09009"
+            ]
+        ]
+    },
+    {
+        "id": "19d39a03.3a12c6",
+        "type": "http response",
+        "z": "87d7e531.936628",
+        "name": "https://hackathon-node-red-tsuedbro.eu-de.mybluemix.net/getData",
+        "statusCode": "",
+        "headers": {},
+        "x": 770,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "b0f7bde5.09009",
+        "type": "function",
+        "z": "87d7e531.936628",
+        "name": "Create sample Data",
+        "func": "var data = { \"name\":\"hackathon\",\n             \"cloud\":\"ibm\",\n             \"message\":\"hello world\"};\n             \n \nmsg.payload = data;           \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 360,
+        "y": 140,
+        "wires": [
+            [
+                "19d39a03.3a12c6"
+            ]
+        ]
+    },
+    {
+        "id": "87025a0e.e71038",
+        "type": "comment",
+        "z": "87d7e531.936628",
+        "name": "Build a simple REST get for Data",
+        "info": "",
+        "x": 190,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "5e27d006.f0b17",
+        "type": "http in",
+        "z": "87d7e531.936628",
+        "name": "",
+        "url": "/postData",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 260,
+        "wires": [
+            [
+                "cf41a904.0af468",
+                "be23e15a.7f3ff"
+            ]
+        ]
+    },
+    {
+        "id": "d079fa33.b63978",
+        "type": "http response",
+        "z": "87d7e531.936628",
+        "name": "200 https://hackathon-node-red-tsuedbro.eu-de.mybluemix.netpostData",
+        "statusCode": "200",
+        "headers": {},
+        "x": 1060,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "cf41a904.0af468",
+        "type": "debug",
+        "z": "87d7e531.936628",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 390,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "be23e15a.7f3ff",
+        "type": "switch",
+        "z": "87d7e531.936628",
+        "name": "contains the post \"hello world\"",
+        "property": "payload.message",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "hello world",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "hello world",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 470,
+        "y": 260,
+        "wires": [
+            [
+                "11ea7666.4edeaa"
+            ],
+            [
+                "e5e49279.8f99e"
+            ]
+        ]
+    },
+    {
+        "id": "361494d6.6ab59c",
+        "type": "http response",
+        "z": "87d7e531.936628",
+        "name": "400 - https://hackathon-node-red-tsuedbro.eu-de.mybluemix.netpostData",
+        "statusCode": "400",
+        "headers": {},
+        "x": 1050,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "3e9380bd.d8d36",
+        "type": "comment",
+        "z": "87d7e531.936628",
+        "name": "Build a very simple REST post for Data",
+        "info": "",
+        "x": 210,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "2774280d.86d678",
+        "type": "comment",
+        "z": "881ab281.5c80e",
+        "name": "Using node-red-dashboard for the UI",
+        "info": "",
+        "x": 170,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "5062a2bf.ef0b3c",
+        "type": "comment",
+        "z": "5e990000.2b94d",
+        "name": "Send REST API POST",
+        "info": "",
+        "x": 140,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "6e13eb24.bc2d24",
+        "type": "inject",
+        "z": "5e990000.2b94d",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 110,
+        "y": 180,
+        "wires": [
+            [
+                "68e4a9b.80bda58"
+            ]
+        ]
+    },
+    {
+        "id": "ea7513a8.1e151",
+        "type": "http request",
+        "z": "5e990000.2b94d",
+        "name": "POST a Credit Pas request",
+        "method": "POST",
+        "ret": "txt",
+        "url": "https://secure.creditpass.de/atgw/authorize.cfm",
+        "tls": "",
+        "x": 560,
+        "y": 180,
+        "wires": [
+            [
+                "810c41ce.a06e7",
+                "40ce2688.f13ad8"
+            ]
+        ]
+    },
+    {
+        "id": "810c41ce.a06e7",
+        "type": "http response",
+        "z": "5e990000.2b94d",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 790,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "9dfc7518.9e11c8",
+        "type": "debug",
+        "z": "5e990000.2b94d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 810,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "68e4a9b.80bda58",
+        "type": "function",
+        "z": "5e990000.2b94d",
+        "name": "build the request",
+        "func": "msg.payload = '<?xml version=\"1.0\" encoding=\"UTF-8\"?><REQUEST><CUSTOMER><AUTH_ID>T901017</AUTH_ID><AUTH_PW>Ex9JBNdaMGXsZK</AUTH_PW><CUSTOMER_TA_ID>781D7BEBCD4FE6D6FECFFCEC59ECDD8</CUSTOMER_TA_ID></CUSTOMER><PROCESS><TA_TYPE>11920</TA_TYPE><REQUESTREASON>ABK</REQUESTREASON></PROCESS><QUERY><PURCHASE_TYPE>1</PURCHASE_TYPE><BLZ>12345678</BLZ><KONTONR>0123456789</KONTONR><AMOUNT>13052</AMOUNT></QUERY></REQUEST>';\nmsg.headers = {};\nmsg.headers['content-type'] = 'application/xml';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 180,
+        "wires": [
+            [
+                "ea7513a8.1e151"
+            ]
+        ]
+    },
+    {
+        "id": "40ce2688.f13ad8",
+        "type": "xml",
+        "z": "5e990000.2b94d",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 590,
+        "y": 320,
+        "wires": [
+            [
+                "9dfc7518.9e11c8",
+                "c28f3fe7.4b388"
+            ]
+        ]
+    },
+    {
+        "id": "e4e1b953.1654c8",
+        "type": "debug",
+        "z": "5e990000.2b94d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 870,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "78621a65.d2df74",
+        "type": "comment",
+        "z": "5e990000.2b94d",
+        "name": "HACKNEXT CREDIT PA",
+        "info": "",
+        "x": 140,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "c28f3fe7.4b388",
+        "type": "function",
+        "z": "5e990000.2b94d",
+        "name": "",
+        "func": "var answer = msg.payload.RESPONSE.PROCESS[0].ANSWER_TEXT[0]\nmsg.payload = \" Ich habe bei CreditPas angefragt und muss leider sagen: \" + answer;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 690,
+        "y": 440,
+        "wires": [
+            [
+                "e4e1b953.1654c8"
+            ]
+        ]
+    },
+    {
+        "id": "6931272e.d99338",
+        "type": "inject",
+        "z": "cc05f6bc.5534f8",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 130,
+        "y": 200,
+        "wires": [
+            [
+                "9bd8c7c3.f38518",
+                "754ca199.6faad"
+            ]
+        ]
+    },
+    {
+        "id": "96126447.1060e8",
+        "type": "http request",
+        "z": "cc05f6bc.5534f8",
+        "name": "POST AUTH at Fig",
+        "method": "POST",
+        "ret": "txt",
+        "url": "https://api.figo.me/auth/token",
+        "tls": "",
+        "x": 470,
+        "y": 200,
+        "wires": [
+            [
+                "863fd6e2.ad7418"
+            ]
+        ]
+    },
+    {
+        "id": "85bd9cf5.b782b",
+        "type": "http response",
+        "z": "cc05f6bc.5534f8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 810,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "9bd8c7c3.f38518",
+        "type": "http request",
+        "z": "cc05f6bc.5534f8",
+        "name": "GET a Figo Version",
+        "method": "GET",
+        "ret": "txt",
+        "url": "https://api.figo.me//version",
+        "tls": "",
+        "x": 250,
+        "y": 580,
+        "wires": [
+            [
+                "127b12c0.b2319d"
+            ]
+        ]
+    },
+    {
+        "id": "127b12c0.b2319d",
+        "type": "http response",
+        "z": "cc05f6bc.5534f8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 450,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "280b7b6b.e851c4",
+        "type": "debug",
+        "z": "cc05f6bc.5534f8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 870,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "5a661505.a3b47c",
+        "type": "comment",
+        "z": "cc05f6bc.5534f8",
+        "name": "Create Access token",
+        "info": "http://docs.figo.io/v3/index.html",
+        "x": 330,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "b0087d27.66c11",
+        "type": "comment",
+        "z": "cc05f6bc.5534f8",
+        "name": "Version",
+        "info": "http://docs.figo.io/v3/index.html",
+        "x": 210,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "4e7a90d6.116c7",
+        "type": "comment",
+        "z": "cc05f6bc.5534f8",
+        "name": "Figo API",
+        "info": "",
+        "x": 120,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "a5b2052e.ac71b8",
+        "type": "inject",
+        "z": "856d6c5f.572c1",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 170,
+        "y": 180,
+        "wires": [
+            [
+                "24d6d63a.f85dba"
+            ]
+        ]
+    },
+    {
+        "id": "aec28ceb.c0c5e",
+        "type": "http request",
+        "z": "856d6c5f.572c1",
+        "name": "POST a Versicherungsvergleich",
+        "method": "POST",
+        "ret": "txt",
+        "url": "http://fb-vertragscheck.fb-preview.de/external/login/getlogintoken",
+        "tls": "",
+        "x": 430,
+        "y": 240,
+        "wires": [
+            [
+                "d99a1da5.fb89c",
+                "94d82381.2b986",
+                "37b7698.9ac1e96"
+            ]
+        ]
+    },
+    {
+        "id": "d99a1da5.fb89c",
+        "type": "http response",
+        "z": "856d6c5f.572c1",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 690,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "b1efc98d.bcd6e8",
+        "type": "comment",
+        "z": "856d6c5f.572c1",
+        "name": "Login as user get token",
+        "info": "http://docs.figo.io/v3/index.html",
+        "x": 400,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "94d82381.2b986",
+        "type": "debug",
+        "z": "856d6c5f.572c1",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 730,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "24d6d63a.f85dba",
+        "type": "function",
+        "z": "856d6c5f.572c1",
+        "name": "",
+        "func": "msg.payload = {\"user_name\":\"hackathon10\",\"password\":\"bouhehity\"};\nmsg.headers = {};\nmsg.headers['content-type'] = 'application/json';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 190,
+        "y": 240,
+        "wires": [
+            [
+                "aec28ceb.c0c5e"
+            ]
+        ]
+    },
+    {
+        "id": "37b7698.9ac1e96",
+        "type": "json",
+        "z": "856d6c5f.572c1",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 350,
+        "y": 320,
+        "wires": [
+            [
+                "8db2a4a7.ea8078"
+            ]
+        ]
+    },
+    {
+        "id": "8db2a4a7.ea8078",
+        "type": "function",
+        "z": "856d6c5f.572c1",
+        "name": "Format token",
+        "func": "var token = msg.payload.token;\nmsg.payload ={\"token\": token};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 520,
+        "y": 320,
+        "wires": [
+            [
+                "94d82381.2b986",
+                "62d01b20.a72d84"
+            ]
+        ]
+    },
+    {
+        "id": "62d01b20.a72d84",
+        "type": "http request",
+        "z": "856d6c5f.572c1",
+        "name": "POST a Versicherungsvergleich",
+        "method": "POST",
+        "ret": "txt",
+        "url": "http://fb-vertragscheck.fb-preview.de/external/productsmodular/getproducttypes",
+        "tls": "",
+        "x": 410,
+        "y": 460,
+        "wires": [
+            [
+                "b2af723a.74b0e"
+            ]
+        ]
+    },
+    {
+        "id": "b2af723a.74b0e",
+        "type": "json",
+        "z": "856d6c5f.572c1",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 630,
+        "y": 460,
+        "wires": [
+            [
+                "94d82381.2b986"
+            ]
+        ]
+    },
+    {
+        "id": "fdd0fd30.5aec",
+        "type": "comment",
+        "z": "856d6c5f.572c1",
+        "name": "Login as user get producttypes",
+        "info": "http://fb-vertragscheck.fb-preview.de/external/productsmodular/getproducttypes",
+        "x": 410,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "f1456517.688008",
+        "type": "comment",
+        "z": "856d6c5f.572c1",
+        "name": "SB Vertragscheck",
+        "info": "http://docs.figo.io/v3/index.html",
+        "x": 190,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "3f79f121.82cf4e",
+        "type": "inject",
+        "z": "eb7b5ef1.374aa",
+        "name": "",
+        "topic": "",
+        "payload": "Hello World",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 270,
+        "y": 320,
+        "wires": [
+            [
+                "1f52d583.90faba"
+            ]
+        ]
+    },
+    {
+        "id": "1f52d583.90faba",
+        "type": "debug",
+        "z": "eb7b5ef1.374aa",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 590,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "f916f5a8.244998",
+        "type": "comment",
+        "z": "eb7b5ef1.374aa",
+        "name": "FLOWS 2.-5.  IBM SERVICES",
+        "info": "",
+        "x": 380,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "6ff8484f.0dd2d8",
+        "type": "comment",
+        "z": "eb7b5ef1.374aa",
+        "name": "FLOWS - 6.-8. BASICS - SOCKET, REST USE, REST PROVIDE ",
+        "info": "",
+        "x": 490,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "80d96594.0c8ca8",
+        "type": "comment",
+        "z": "eb7b5ef1.374aa",
+        "name": "FLOWS 9. - ... HACKNEXT APIS SAMPLES",
+        "info": "",
+        "x": 420,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "a650b106.b91b3",
+        "type": "comment",
+        "z": "eb7b5ef1.374aa",
+        "name": "CONTENT",
+        "info": "",
+        "x": 240,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "b79a5751.5ec908",
+        "type": "comment",
+        "z": "eb7b5ef1.374aa",
+        "name": "FLOW 1. VERY BASIC",
+        "info": "",
+        "x": 360,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "754ca199.6faad",
+        "type": "function",
+        "z": "cc05f6bc.5534f8",
+        "name": "",
+        "func": "msg.payload = {\"grant_type\":\"password\",\"username\":\"demo@figo.me\",\"password\":\"demo1234\"};\nmsg.headers = {};\nmsg.headers['content-type'] = 'application/json';\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 290,
+        "y": 200,
+        "wires": [
+            [
+                "96126447.1060e8"
+            ]
+        ]
+    },
+    {
+        "id": "863fd6e2.ad7418",
+        "type": "json",
+        "z": "cc05f6bc.5534f8",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 670,
+        "y": 200,
+        "wires": [
+            [
+                "a62193e1.cd969",
+                "280b7b6b.e851c4"
+            ]
+        ]
+    },
+    {
+        "id": "a62193e1.cd969",
+        "type": "function",
+        "z": "cc05f6bc.5534f8",
+        "name": "",
+        "func": "var fulltoken = msg.payload.token_type + \" \" + msg.payload.access_token;\n\nmsg.headers = {};\nmsg.headers['Authorization'] = fulltoken;\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 290,
+        "y": 420,
+        "wires": [
+            [
+                "2964a441.862d1c"
+            ]
+        ]
+    },
+    {
+        "id": "2964a441.862d1c",
+        "type": "http request",
+        "z": "cc05f6bc.5534f8",
+        "name": "GET Accounts",
+        "method": "GET",
+        "ret": "txt",
+        "url": "https://api.figo.me/rest/accounts",
+        "tls": "",
+        "x": 460,
+        "y": 420,
+        "wires": [
+            [
+                "a3f22653.8db358",
+                "f8bc0c2.c62dff"
+            ]
+        ]
+    },
+    {
+        "id": "a3f22653.8db358",
+        "type": "json",
+        "z": "cc05f6bc.5534f8",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 670,
+        "y": 420,
+        "wires": [
+            [
+                "85bd9cf5.b782b",
+                "280b7b6b.e851c4"
+            ]
+        ]
+    },
+    {
+        "id": "ed7fc0dd.aff5e",
+        "type": "comment",
+        "z": "cc05f6bc.5534f8",
+        "name": "Get accounts",
+        "info": "http://docs.figo.io/v3/index.html",
+        "x": 310,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "f8bc0c2.c62dff",
+        "type": "csv",
+        "z": "cc05f6bc.5534f8",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "x": 680,
+        "y": 520,
+        "wires": [
+            [
+                "85bd9cf5.b782b",
+                "280b7b6b.e851c4"
+            ]
+        ]
+    },
+    {
+        "id": "d3d9474e.ed2098",
+        "type": "comment",
+        "z": "5e990000.2b94d",
+        "name": "https://creditpass.de/wp-content/uploads/2019/02/DirectAccess_ATGW_Quickspecs_V3.6_en.pdf",
+        "info": "",
+        "x": 380,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "6b343f7.b39d1c",
+        "type": "comment",
+        "z": "5e990000.2b94d",
+        "name": "https://creditpass.de/wp-content/uploads/2019/02/creditPass-short-concept-hacknext-03-2019.pdf",
+        "info": "",
+        "x": 380,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "80bbf881.ca43f8",
+        "type": "comment",
+        "z": "cc05f6bc.5534f8",
+        "name": "http://docs.figo.io/v3/index.html#authentication-oauth2-access-tokens",
+        "info": "",
+        "x": 330,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "a613c0dc.339f5",
+        "type": "comment",
+        "z": "856d6c5f.572c1",
+        "name": "https://v7.fb-vertragscheck.fb-preview.de/external/productsmodular/getproducttypes/info",
+        "info": "",
+        "x": 430,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "bb31a873.a2a408",
+        "type": "debug",
+        "z": "2da11c5.882c3e4",
+        "name": "debug complete msg object",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 680,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "c1eb9ad.d4b0c68",
+        "type": "inject",
+        "z": "2da11c5.882c3e4",
+        "name": "I want to make a appointment",
+        "topic": "",
+        "payload": "I want to make a appointment",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 160,
+        "y": 140,
+        "wires": [
+            [
+                "5ab72364.3724ac",
+                "466bb1f8.3531e"
+            ]
+        ]
+    },
+    {
+        "id": "e76102a0.b530d",
+        "type": "inject",
+        "z": "2da11c5.882c3e4",
+        "name": "What is the local temperature?",
+        "topic": "",
+        "payload": "What is the local temperature?",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 170,
+        "y": 80,
+        "wires": [
+            [
+                "466bb1f8.3531e"
+            ]
+        ]
+    },
+    {
+        "id": "5ab72364.3724ac",
+        "type": "watson-conversation-v1-workspace-manager",
+        "z": "2da11c5.882c3e4",
+        "name": "",
+        "cwm-custom-mode": "listWorkspaces",
+        "cwm-workspace-id": "",
+        "cwm-intent": "",
+        "cwm-example": "",
+        "cwm-entity": "",
+        "cwm-entity-value": "",
+        "cwm-dialog-node": "",
+        "cwm-export-content": false,
+        "cwm-default-endpoint": true,
+        "cwm-service-endpoint": "https://gateway.watsonplatform.net/assistant/api",
+        "x": 420,
+        "y": 220,
+        "wires": [
+            [
+                "bb31a873.a2a408"
+            ]
+        ]
+    },
+    {
+        "id": "466bb1f8.3531e",
+        "type": "watson-conversation-v1",
+        "z": "2da11c5.882c3e4",
+        "name": "",
+        "workspaceid": "aab8cf6d-63e3-4ad1-9dea-01a30825b4e5",
+        "multiuser": false,
+        "context": true,
+        "empty-payload": false,
+        "default-endpoint": true,
+        "service-endpoint": "https://gateway.watsonplatform.net/assistant/api",
+        "timeout": "",
+        "optout-learning": false,
+        "x": 400,
+        "y": 140,
+        "wires": [
+            [
+                "bb31a873.a2a408"
+            ]
+        ]
+    },
+    {
+        "id": "11ea7666.4edeaa",
+        "type": "function",
+        "z": "87d7e531.936628",
+        "name": "success",
+        "func": "msg.headers = {};\nmsg.headers[\"Access-Control-Allow-Origin\"]= \"*\";\nmsg.headers[\"Access-Control-Allow-Methods\"]= \"POST, GET, OPTIONS\";\nmsg.payload={\"return\":\"success\"};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 700,
+        "y": 220,
+        "wires": [
+            [
+                "d079fa33.b63978"
+            ]
+        ]
+    },
+    {
+        "id": "e5e49279.8f99e",
+        "type": "function",
+        "z": "87d7e531.936628",
+        "name": "error",
+        "func": "msg.headers = {};\nmsg.headers[\"Access-Control-Allow-Origin\"]= \"*\";\nmsg.headers[\"Access-Control-Allow-Methods\"]= \"POST, GET, OPTIONS\";\nmsg.payload={\"return\":\"error\"};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 690,
+        "y": 280,
+        "wires": [
+            [
+                "361494d6.6ab59c"
+            ]
+        ]
+    },
+    {
+        "id": "2c20a942.6d2766",
+        "type": "comment",
+        "z": "87d7e531.936628",
+        "name": "CORS",
+        "info": "https://thefrinkiac7.wordpress.com/node-red/enable-cors-with-node-red/",
+        "x": 110,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "d9f73900.36b9e8",
+        "type": "comment",
+        "z": "87d7e531.936628",
+        "name": "simple forward server",
+        "info": "",
+        "x": 160,
+        "y": 440,
+        "wires": []
+    }
+]
