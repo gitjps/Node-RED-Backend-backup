@@ -1,4 +1,6 @@
+# files
 .DS_Store
+*$*.pptx
 
 
 # node simple_forward_server
