@@ -7,7 +7,8 @@ var cors = require("cors"); // Cors
 app.use(cors());
 var port = process.env.PORT || 3000;
 
-app.get('/getData', function(req, res) {
+app.options('/getData', cors());
+app.get('/getData', cors(), function(req, res) {
     var request = require("request");
     var reqURL = "https://hackathon-node-red-tsuedbro.eu-de.mybluemix.net/getData";
     
@@ -38,7 +39,8 @@ app.get('/getData', function(req, res) {
     });    
 });
 
-app.post('/postData', function(req, res) {
+app.options('/postData', cors());
+app.post('/postData', cors(), function(req, res) {
     var request = require("request");
     var reqURL = "https://hackathon-node-red-tsuedbro.eu-de.mybluemix.net/postData";
     
@@ -76,5 +78,5 @@ app.post('/postData', function(req, res) {
 
 // Start the server
 app.listen(port, function () {
-    console.log('forward server is running')
+    console.log('simple forward server is running')
 });
