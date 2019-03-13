@@ -53,5 +53,5 @@ You should the you response like this:
 
 * **Node-RED output**
 
-![simple-web-app-node-red-output-html](../images/simple-web-app-output-html.png)
+![simple-web-app-node-red-output-html](../images/simple-web-app-node-red-output.png)
 
