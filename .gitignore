@@ -6,3 +6,7 @@
 # node simple_forward_server
 ./simple_forward_server/node_modules
 ./simple_forward_server/package-lock.json
+
+# node simple_web_app
+./simple_web_app/node_modules
+./simple_web_app/package-lock.json
