@@ -33,7 +33,7 @@ You have to add the **Node-RED Dashboard** before your import my customized flow
 
 ![Node-RED_Select_Manage-Palette](images/Node-RED_Install_nodes.jpg)
 
-To take attvantage from the VCAP variable and the easy usage of  service in IBM Cloud, you should bind the service to your Node-RED instance.
+To take advantage from the VCAP variable and the easy usage of  service in IBM Cloud, you should bind the service to your Node-RED instance.
 
 5. Open your **Node-RED Application** in IBM Cloud.
 

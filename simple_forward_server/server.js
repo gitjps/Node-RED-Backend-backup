@@ -9,7 +9,7 @@ var port = process.env.PORT || 3000;
 
 app.get('/getData', function(req, res) {
     var request = require("request");
-    var reqURL = "https://hackathon-node-red-tsuedbro.eu-de.mybluemix.net/getData";
+    var reqURL = "https://YOUR_NODE_RED_URL/getData";
     
     console.log("URL: \n", reqURL);
 
@@ -40,7 +40,7 @@ app.get('/getData', function(req, res) {
 
 app.post('/postData', function(req, res) {
     var request = require("request");
-    var reqURL = "https://hackathon-node-red-tsuedbro.eu-de.mybluemix.net/postData";
+    var reqURL = "https://YOUR_NODE_RED_URL/postData";
     
     console.log("URL: \n", reqURL);
     console.log("POST Body: \n", JSON.stringify(req.body));
