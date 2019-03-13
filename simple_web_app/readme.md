@@ -41,4 +41,14 @@ Listening on port (3001)
 
 Open http://localhost:3001 in the browser and insert some text in the edit box.
 
+You should the you response like this:
+
+* **WebApp webpage output**
+![simple-web-app-output-html](images/simple-web-app-output-html.png)
+
+* **Forward server console output**
+![simple-web-app-output-forward-server](images/simple-web-app-output-forward-server.png)
+
+* **Node-RED output**
+![simple-web-app-node-red-output-html](images/simple-web-app-output-html.png)
 
