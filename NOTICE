@@ -6,3 +6,4 @@ MIT: https://github.com/expressjs/express/blob/master/LICENSE
 Apache License Version 2.0 https://www.npmjs.com/package/request
 ISC: https://www.npmjs.com/package/http-module
 MIT: https://www.npmjs.com/package/path
+MIT: https://www.npmjs.com/package/xmlhttprequest

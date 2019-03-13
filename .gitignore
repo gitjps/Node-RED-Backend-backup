@@ -1,5 +1,5 @@
 # files
-.DS_Store
+.*DS_Store*
 *$*.pptx
 node_modules
 package-lock.json
