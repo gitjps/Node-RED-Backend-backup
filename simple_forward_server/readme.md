@@ -28,17 +28,20 @@ npm install
 npm start
 ```
 
-open the [static web page](simple_forward_server/webapp.html)
-
 ## Usage
 
-I created a sample for postman.
+I expect you have a running Node-RED instance on IBM Cloud.
 
-You can import the [postman collection](postman_collection/Node-RED-REST-sample.postman_collection.json) and test the forward server.
+Use **postman** or the **simple webapp** in this github project (simple_web_app/readme.md). 
 
-Sample output when postman is used:
+**postman**
+
+I created a sample for postman. You can import the [postman collection](postman_collection/Node-RED-REST-sample.postman_collection.json) and test the forward server.
+
+Sample output when **postman** is used:
 
 ```sh
+npm start
 > simple_forward_server@1.0.0 start
 > node server.js
 
@@ -52,5 +55,8 @@ Success:
  {"name":"hackathon","cloud":"ibm","message":"hello world"}
 ```
 
+**simple webapp**
+
+Open the [static web page](simple_web_app/public/webapp.html)
 
 

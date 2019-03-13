@@ -28,10 +28,17 @@ npm install
 npm start
 ```
 
-open the [static web page](simple_web_app/public/webapp.html)
-
 ## Usage
 
+```sh
+npm start
 
+> @ start /hackathons_and_node-red/simple_web_app
+> node server.js
+
+Listening on port (3001)
+```
+
+Open http://localhost:3001 in the browser and insert some text in the edit box.
 
 
