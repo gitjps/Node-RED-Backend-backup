@@ -7,11 +7,12 @@ var cors = require("cors"); // Cors
 app.use(cors());
 ```
 
-_Note:_ Static sample web page uses the code from [stackoverfollow](https://stackoverflow.com/questions/49085931/how-to-call-existing-rest-api-from-a-html-form) as a starting point.
+_Note:_ Static sample web page uses as starting point code from [stackoverfollow](https://stackoverflow.com/questions/49085931/how-to-call-existing-rest-api-from-a-html-form).
 
-* Basic flow:
+## Basic flow
 
-WebApp -- REST CALL --> simple-forward-server(**cores enabled**) -- REST CALL --> Node-RED
+![simple diragram](../images/simple-diagram.png)
+
 
 ## Local installation
 

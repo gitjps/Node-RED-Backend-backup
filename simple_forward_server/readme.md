@@ -9,9 +9,9 @@ app.use(cors());
 
 _Note:_ Static sample web page uses the code from [stackoverfollow](https://stackoverflow.com/questions/49085931/how-to-call-existing-rest-api-from-a-html-form)
 
-* Basic flow:
+## Basic flow
 
-WebApp -- REST CALL --> simple-forward-server(**cores enabled**) -- REST CALL --> Node-RED
+![simple diragram](../images/simple-diagram.png)
 
 ## Local installation
 
