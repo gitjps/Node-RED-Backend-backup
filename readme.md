@@ -1,11 +1,11 @@
 # Hackathons and Node-RED
 
 In this github I will backup some Node-RED flows, which can be useful in Hackathons.
-Also I provide the basic guide, how to setup these flows?
+Also I provide the basic guide, how to setup these flows.
+
+The project also contains applications [simple forward server](simple_forward_server/readme.md) and [simple web app](simple_web_app/readme.md) related to Cross-origin resource sharing and Node-RED.
 
 # Cross-origin resource sharing
-
-The project also contains the applications [simple forward server](simple_forward_server/readme.md) and [simple web app](simple_web_app/readme.md).
 
 When you use Node-RED on IBM Cloud during hackathons you will notice REST calls in flows cannot directly be invoked from a web application. The reason for this is mostly that cors (cross-origin resource sharing) is not enabled for the Node-RED server. This blog post is about using a simple workaround to address the given cors (cross-origin resource sharing) problem.
 
