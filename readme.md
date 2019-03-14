@@ -7,7 +7,9 @@ Also I provide the basic guide, how to setup these flows?
 
 The project also contains the applications [simple forward server](simple_forward_server/readme.md) and [simple web app](simple_web_app/readme.md).
 
-When you use Node-RED on IBM Cloud during hackathons you will notice REST calls in flows cannot directly be invoked from a web-application. The reason for this is mostly that cors (cross-origin resource sharing) is not enabled for the Node-RED server. This blog post is about using a simple workaround to address the given cors (cross-origin resource sharing) problem.
+When you use Node-RED on IBM Cloud during hackathons you will notice REST calls in flows cannot directly be invoked from a web application. The reason for this is mostly that cors (cross-origin resource sharing) is not enabled for the Node-RED server. This blog post is about using a simple workaround to address the given cors (cross-origin resource sharing) problem.
+
+releated blog post:[cors and Node-RED using a simple forward server](https://suedbroecker.net/2019/03/13/cors-and-node-red-using-a-simple-forward-server/)
 
 # Watson Assistant and custom output
 
