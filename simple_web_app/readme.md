@@ -7,7 +7,7 @@ var cors = require("cors"); // Cors
 app.use(cors());
 ```
 
-Related blog post:[cors and Node-RED using a simple forward server](https://suedbroecker.net/2019/03/13/cors-and-node-red-using-a-simple-forward-server/)
+Related blog post:[cors and Node-RED using a simple forwarding server](https://suedbroecker.net/2019/03/13/cors-and-node-red-using-a-simple-forward-server/)
 
 _Note:_ Static sample web page uses as a starting point code from [stackoverfollow](https://stackoverflow.com/questions/49085931/how-to-call-existing-rest-api-from-a-html-form).
 

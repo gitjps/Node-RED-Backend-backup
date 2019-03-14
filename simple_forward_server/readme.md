@@ -1,8 +1,8 @@
-# Simple forward server
+# Simple forwarding server
 
-In case of that a cors problem using **Node-RED** as **REST server** can not be fixed. I wrote a simple sample **REST forward server**, which has **cors enabled**.
+In case of that a cors problem using **Node-RED** as **REST server** can not be fixed. I wrote a simple sample **REST forwarding server**, which has **cors enabled**.
 
-Related blog post:[cors and Node-RED using a simple forward server](https://suedbroecker.net/2019/03/13/cors-and-node-red-using-a-simple-forward-server/)
+Related blog post:[cors and Node-RED using a simple forwarding server](https://suedbroecker.net/2019/03/13/cors-and-node-red-using-a-simple-forward-server/)
 
 ```javascript
 var cors = require("cors"); // Cors
