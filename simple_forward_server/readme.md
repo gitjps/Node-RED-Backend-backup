@@ -59,6 +59,6 @@ Success:
 
 **simple webapp**
 
-Open the [static web page](simple_web_app/public/webapp.html)
+Open the [static web page](../simple_web_app/public/webapp.html)
 
 
