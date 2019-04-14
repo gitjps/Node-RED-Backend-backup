@@ -55,7 +55,7 @@ To take advantage from the VCAP variable and the easy usage of service in IBM Cl
 Now you can do the same steps I did in the video.
 
 
-8. Changes in the gitjps fork
+# Changes in the gitjps fork
 
 Only minor changes to the simple_forward_server and the Node-RED flow to transmit the Watson Assistant response back to the requester.
 
